@@ -1,0 +1,29 @@
+title: af-generic
+description: af-generic description
+
+lang: en-US
+
+baseURL: "https://appfoundry.be/"
+
+logo:
+  brand:
+    name: "Reliant"
+    punchline: "dependency injection for iOS and OSX"
+  svgId: "Reliant_Logo"
+  # OR - 
+  # pngFile: "header_image.png"
+
+headerImage: "header_image.png"
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      comments: false
+
+exclude:
+  - vendor/bundle

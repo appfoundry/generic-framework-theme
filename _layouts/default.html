@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+{% include head.html %}
+<body>
+  <div id="wrapper">
+    {% include header.html github=site.data.social.github githubRepoName=site.data.projectInfo.githubRepoName projectStatus=site.data.projectInfo.status logo=site.logo %}
+
+    <section id="intro">
+        <div class="container">
+          <p class="f-italic">{{page.intro}}</p>
+        </div>
+    </section>
+      
+    <div class="horizontal-spacing" id="body">
+      <div class="container">
+        {{content}}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </div>
+
+{% include icons.svg %}
+</body>
+</html>
+
+
+

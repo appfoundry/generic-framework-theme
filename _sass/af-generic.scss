@@ -1,0 +1,81 @@
+@import "susy/sass/susy";
+@import "normalize";
+@import "settings";
+@import "colors";
+@import "variables";
+@import "fonts";
+@import "base";
+@import "states";
+@import "layout";
+@import "header";
+@import "footer";
+@import "syntax";
+
+html, body {
+  height: 100%;
+}
+
+body, #wrapper {
+  min-height: 100%;
+}
+
+#wrapper {
+  display: flex; 
+  flex-direction: column;
+}
+
+body, #body, html {
+  background-color: $c-background;
+}
+
+#body {
+  color: $c-contentText;
+}
+
+#body {
+  flex: 1;
+}
+
+#intro {
+  background-color: $c-accent;
+  color: $c-text;
+  padding: 1vh 0 1vh 0;
+  margin-bottom: 2vh;
+
+  a {
+    color: $c-theme;
+    &:hover {
+      color: $c-text;
+    }
+  }
+}
+
+.content {
+  section {
+    padding-bottom: 2em;
+    border-bottom: 1px solid $c-theme;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+#body {
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 2px solid $c-accent;
+        border-right: 2px solid $c-accent;
+    }
+
+    th:last-of-type, td:last-of-type {
+        border-right: none;
+    }
+
+    h2:after {
+        content: '';
+        display: block;
+        border: 1px solid $c-text;
+    }
+}

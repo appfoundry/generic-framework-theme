@@ -1,0 +1,30 @@
+{
+  "name": "af-generic",
+  "version": "1.0.0",
+  "description": "This is the base theme used for all of AppFoundry's framework introduction pages",
+  "main": "script/server",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appfoundry/generic-framework-theme.git"
+  },
+  "author": "AppFoundry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appfoundry/generic-framework-theme/issues"
+  },
+  "homepage": "https://github.com/appfoundry/generic-framework-theme#readme",
+  "dependencies": {
+    "anchor-js": "^4.1.0",
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "susy": "^2.2.12",
+    "turbolinks": "^5.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^3.12.0"
+  }
+}

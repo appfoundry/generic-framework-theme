@@ -1,0 +1,80 @@
+header {
+  padding: 3em 0 1em 0;
+  background-color: $c-theme;
+  color: $c-text;
+  border-bottom: 10px solid $c-accent;
+
+  transition: all 0.75s ease;
+
+  .brand {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+
+    .tagline {
+      font-size: 1em;
+    }
+  }
+
+  .logo {
+    fill: $c-logoFill;
+    color: $c-theme;
+    height: 150px;
+    max-width: 200px;
+  }
+
+  .project-status {
+    margin-top: 2vh;
+    text-align: right;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  #downloads {
+    @include susy-clearfix;
+    margin-top: 44px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .downloads-item {
+    display:inline-block;
+    text-align:center;
+  }
+
+  .downloads-item:nth-child(2) {
+    flex-grow: 1;
+  }
+  
+
+  &.collapsed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 0.5em 0;
+    height: 55px;
+
+    #downloads,
+    .project-status,
+    .brand p {
+      display: none;
+    }
+
+    svg.logo {
+      width: 55px;
+      height: 55px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+  a {
+    color: $c-text;
+  }
+
+}

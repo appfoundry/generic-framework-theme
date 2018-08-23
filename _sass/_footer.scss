@@ -1,0 +1,33 @@
+footer {
+  background-color: $c-accent;
+  border-top: 10px solid $c-theme;
+  padding-bottom: 3em;
+  margin-top: 3em;
+  section {
+    &:first-child {
+      @include span(8);
+    }
+
+    &:last-child {
+      @include span(4);
+    }
+
+    h2, p, div {
+      color: $c-text;
+    }
+
+    div {
+     margin-left: 0px;
+    }
+  }
+
+  a {
+    color: $c-text;
+
+    &:hover {
+      color: $c-theme;
+    }
+  }
+
+  
+}

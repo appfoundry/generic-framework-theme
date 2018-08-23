@@ -1,0 +1,11 @@
+name: "Reliant"
+
+licence:
+  name: "MIT"
+  link: "https://opensource.org/licenses/MIT"
+
+status:
+  podName: "Reliant"
+  supportsCarthage: true
+
+githubRepoName: "Reliant"
