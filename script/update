@@ -5,7 +5,7 @@ set -ex
 sass_assets=( "susy" )
 vendor_assets=( "font-awesome" )
 
-npm update
+npm --depth 9999 update --save
 
 for asset in ${sass_assets[@]}
 do
