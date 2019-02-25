@@ -16,7 +16,7 @@
   "homepage": "https://github.com/appfoundry/generic-framework-theme#readme",
   "dependencies": {
     "anchor-js": "^4.2.0",
-    "bootstrap-sass": "^3.4.0",
+    "bootstrap-sass": "^3.4.1",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.11",
     "susy": "^2.2.12",

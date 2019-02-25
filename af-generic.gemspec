@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'af-generic'
-  spec.version       = '0.2.0'
+  spec.version       = '0.2.1'
   spec.authors       = ['Damian Malarczyk']
   spec.email         = ['damian.malarczyk@appfoundry.be']
 
